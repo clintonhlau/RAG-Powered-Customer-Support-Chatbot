@@ -1,0 +1,63 @@
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Model artifacts
+models/
+*.pt 
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+
+# Vector database files
+*.faiss
+*.index
+qdrant_storage/
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Python
+__pycashe__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log 
+
+# Temporary files
+tmp/
+temp/
+*.tmp
