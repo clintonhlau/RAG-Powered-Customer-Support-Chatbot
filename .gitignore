@@ -30,7 +30,7 @@ qdrant_storage/
 *.pem
 
 # Python
-__pycashe__/
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -51,6 +51,7 @@ env/
 
 # OS
 .DS_Store
+**/.DS_Store
 Thumbs.db
 
 # Logs
